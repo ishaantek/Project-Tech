@@ -109,9 +109,10 @@ export default function Mission() {
           Every student deserves access to computer science education.
         </Heading>
         <Text mt="1rem" color="primary">
-          The Project Tech Foundation aims to bridge the digital divide through
-          free computer science education for global students, offering courses,
-          resources, and tools.
+          The Project Tech Foundation is a non-profit organization led by
+          students that aims to bridge the digital divide through free computer
+          science education for global students, offering courses, resources,
+          and tools.
         </Text>
 
         <Stack

@@ -7,18 +7,36 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 export const metadata = {
-  metadataBase: new URL('http://localhost:3000'),
-  title: 'Project Tech',
-  description: 'Project Tech is a 501(c)(3) non-profit that strives to eliminate technological disparity among students across the globe. Through our comprehensive suite of resources – from coding courses to interactive quizzes & videos – we aim to ignite a spark of passion for technology in all students across the globe.',
-  image: 'https://project-tech.org',
-  keywords: ['Project Tech', 'Coding Education', 'Free Programming Courses', 'Free Coding Resources', 'Resources', 'EdTech', 'Digital Divide', 'Computer Science', 'JavaScript', 'Python', 'Data Science', 'Web Development', 'Interactive Learning', 'Free Coding Courses', 'Tech Community', 'Project Tech'],
+  metadataBase: new URL("http://localhost:3000"),
+  title: "Project Tech",
+  description:
+    "The Project Tech Foundation is a non-profit organization led by students that aims to bridge the digital divide through free computer science education for global students, offering courses, resources, and tools.",
+  image: "https://project-tech.org",
+  keywords: [
+    "Project Tech",
+    "Coding Education",
+    "Free Programming Courses",
+    "Free Coding Resources",
+    "Resources",
+    "EdTech",
+    "Digital Divide",
+    "Computer Science",
+    "JavaScript",
+    "Python",
+    "Data Science",
+    "Web Development",
+    "Interactive Learning",
+    "Free Coding Courses",
+    "Tech Community",
+    "Project Tech",
+  ],
   twitter: {
-    cardType: 'summary_large_image',
-    title: 'Project Tech',
-    description: 'Project Tech is a 501(c)(3) non-profit that strives to eliminate technological disparity among students across the globe. Through our comprehensive suite of resources – from coding courses to interactive quizzes & videos – we aim to ignite a spark of passion for technology in all students across the globe.'
+    cardType: "summary_large_image",
+    title: "Project Tech",
+    description:
+      "The Project Tech Foundation is a non-profit organization led by students that aims to bridge the digital divide through free computer science education for global students, offering courses, resources, and tools.",
   },
-  
-}
+};
 
 
 export default function RootLayout({ children }) {
