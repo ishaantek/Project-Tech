@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 
 export const metadata = {
   metadataBase: new URL("http://localhost:3000"),
-  title: "Project Tech",
+  title: "Project Tech Foundation",
   description:
     "The Project Tech Foundation is a non-profit organization led by students that aims to bridge the digital divide through free computer science education for global students, offering courses, resources, and tools.",
   image: "https://project-tech.org",
